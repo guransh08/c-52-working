@@ -1,0 +1,58 @@
+
+
+body{background-color:antiquewhite}
+
+
+.header{
+    background-color: aqua;
+    display:flex;
+    justify-content : space-between
+
+}
+
+.body{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p,h2{
+    text-align: center;
+
+}
+
+h1{
+  margin-left:30px;
+}
+.header1{
+    margin-right:30px;
+}
+.header1 a{
+    margin-right:30px;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+.bodya{
+    position: relative;
+}
+.bodya p{
+    position:absolute;
+    top:20%;
+    right:20%;
+    transform: translate(10%,-30%);
+    opacity:0
+}
+.bodya:hover p{
+    opacity:1
+}
+.bodya:hover img{
+    opacity:0.3
+}
+
+
+
